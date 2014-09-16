@@ -57,7 +57,7 @@ public class FileExamples
             
             
             
-        System.out.println("'wordlist.txt' exists = " +new File("wordlist.txt").exists() );
+        System.out.println("'"+fName+"' exists = " +new File(fName).exists() );
     
     }
 }
